@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B250EA5A1F6D734200A0BDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B250EA591F6D734200A0BDA5 /* AppDelegate.swift */; };
-		B250EA5C1F6D734200A0BDA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B250EA5B1F6D734200A0BDA5 /* ViewController.swift */; };
-		B250EA5E1F6D734200A0BDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B250EA5D1F6D734200A0BDA5 /* Assets.xcassets */; };
-		B250EA611F6D734300A0BDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B250EA5F1F6D734300A0BDA5 /* Main.storyboard */; };
+		B2E76DE31F6EF4D700E9F2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E76DDD1F6EF4D700E9F2FA /* AppDelegate.swift */; };
+		B2E76DE41F6EF4D700E9F2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E76DDE1F6EF4D700E9F2FA /* Assets.xcassets */; };
+		B2E76DE51F6EF4D700E9F2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E76DDF1F6EF4D700E9F2FA /* Main.storyboard */; };
+		B2E76DE71F6EF4D700E9F2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E76DE21F6EF4D700E9F2FA /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B250EA561F6D734200A0BDA5 /* PercentCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B250EA591F6D734200A0BDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B250EA5B1F6D734200A0BDA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B250EA5D1F6D734200A0BDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B250EA601F6D734300A0BDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B250EA621F6D734300A0BDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B250EA561F6D734200A0BDA5 /* PercentCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E76DDD1F6EF4D700E9F2FA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2E76DDE1F6EF4D700E9F2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2E76DE01F6EF4D700E9F2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2E76DE11F6EF4D700E9F2FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E76DE21F6EF4D700E9F2FA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		B250EA4D1F6D734200A0BDA5 = {
 			isa = PBXGroup;
 			children = (
-				B250EA581F6D734200A0BDA5 /* PercentCalc */,
+				B2E76DDC1F6EF4D700E9F2FA /* PercentCalculator */,
 				B250EA571F6D734200A0BDA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +44,29 @@
 		B250EA571F6D734200A0BDA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B250EA561F6D734200A0BDA5 /* PercentCalc.app */,
+				B250EA561F6D734200A0BDA5 /* PercentCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B250EA581F6D734200A0BDA5 /* PercentCalc */ = {
+		B2E76DDC1F6EF4D700E9F2FA /* PercentCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				B250EA591F6D734200A0BDA5 /* AppDelegate.swift */,
-				B250EA5B1F6D734200A0BDA5 /* ViewController.swift */,
-				B250EA5D1F6D734200A0BDA5 /* Assets.xcassets */,
-				B250EA5F1F6D734300A0BDA5 /* Main.storyboard */,
-				B250EA621F6D734300A0BDA5 /* Info.plist */,
+				B2E76DDD1F6EF4D700E9F2FA /* AppDelegate.swift */,
+				B2E76DDE1F6EF4D700E9F2FA /* Assets.xcassets */,
+				B2E76DDF1F6EF4D700E9F2FA /* Main.storyboard */,
+				B2E76DE11F6EF4D700E9F2FA /* Info.plist */,
+				B2E76DE21F6EF4D700E9F2FA /* ViewController.swift */,
 			);
-			path = PercentCalc;
+			path = PercentCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B250EA551F6D734200A0BDA5 /* PercentCalc */ = {
+		B250EA551F6D734200A0BDA5 /* PercentCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B250EA651F6D734300A0BDA5 /* Build configuration list for PBXNativeTarget "PercentCalc" */;
+			buildConfigurationList = B250EA651F6D734300A0BDA5 /* Build configuration list for PBXNativeTarget "PercentCalculator" */;
 			buildPhases = (
 				B250EA521F6D734200A0BDA5 /* Sources */,
 				B250EA531F6D734200A0BDA5 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = PercentCalc;
+			name = PercentCalculator;
 			productName = PercentCalc;
-			productReference = B250EA561F6D734200A0BDA5 /* PercentCalc.app */;
+			productReference = B250EA561F6D734200A0BDA5 /* PercentCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B250EA511F6D734200A0BDA5 /* Build configuration list for PBXProject "PercentCalc" */;
+			buildConfigurationList = B250EA511F6D734200A0BDA5 /* Build configuration list for PBXProject "PercentCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B250EA551F6D734200A0BDA5 /* PercentCalc */,
+				B250EA551F6D734200A0BDA5 /* PercentCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -121,8 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B250EA5E1F6D734200A0BDA5 /* Assets.xcassets in Resources */,
-				B250EA611F6D734300A0BDA5 /* Main.storyboard in Resources */,
+				B2E76DE41F6EF4D700E9F2FA /* Assets.xcassets in Resources */,
+				B2E76DE51F6EF4D700E9F2FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,18 +133,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B250EA5C1F6D734200A0BDA5 /* ViewController.swift in Sources */,
-				B250EA5A1F6D734200A0BDA5 /* AppDelegate.swift in Sources */,
+				B2E76DE71F6EF4D700E9F2FA /* ViewController.swift in Sources */,
+				B2E76DE31F6EF4D700E9F2FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B250EA5F1F6D734300A0BDA5 /* Main.storyboard */ = {
+		B2E76DDF1F6EF4D700E9F2FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B250EA601F6D734300A0BDA5 /* Base */,
+				B2E76DE01F6EF4D700E9F2FA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,12 +248,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = PercentCalc/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/PercentCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalc;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -262,12 +265,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = PercentCalc/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/PercentCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalc;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -275,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B250EA511F6D734200A0BDA5 /* Build configuration list for PBXProject "PercentCalc" */ = {
+		B250EA511F6D734200A0BDA5 /* Build configuration list for PBXProject "PercentCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B250EA631F6D734300A0BDA5 /* Debug */,
@@ -284,13 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B250EA651F6D734300A0BDA5 /* Build configuration list for PBXNativeTarget "PercentCalc" */ = {
+		B250EA651F6D734300A0BDA5 /* Build configuration list for PBXNativeTarget "PercentCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B250EA661F6D734300A0BDA5 /* Debug */,
 				B250EA671F6D734300A0BDA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

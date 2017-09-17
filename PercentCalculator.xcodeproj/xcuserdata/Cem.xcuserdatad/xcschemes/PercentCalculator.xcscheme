@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B250EA551F6D734200A0BDA5"
-               BuildableName = "PercentCalc.app"
-               BlueprintName = "PercentCalc"
-               ReferencedContainer = "container:PercentCalc.xcodeproj">
+               BuildableName = "PercentCalculator.app"
+               BlueprintName = "PercentCalculator"
+               ReferencedContainer = "container:PercentCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B250EA551F6D734200A0BDA5"
-            BuildableName = "PercentCalc.app"
-            BlueprintName = "PercentCalc"
-            ReferencedContainer = "container:PercentCalc.xcodeproj">
+            BuildableName = "PercentCalculator.app"
+            BlueprintName = "PercentCalculator"
+            ReferencedContainer = "container:PercentCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B250EA551F6D734200A0BDA5"
-            BuildableName = "PercentCalc.app"
-            BlueprintName = "PercentCalc"
-            ReferencedContainer = "container:PercentCalc.xcodeproj">
+            BuildableName = "PercentCalculator.app"
+            BlueprintName = "PercentCalculator"
+            ReferencedContainer = "container:PercentCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B250EA551F6D734200A0BDA5"
-            BuildableName = "PercentCalc.app"
-            BlueprintName = "PercentCalc"
-            ReferencedContainer = "container:PercentCalc.xcodeproj">
+            BuildableName = "PercentCalculator.app"
+            BlueprintName = "PercentCalculator"
+            ReferencedContainer = "container:PercentCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
