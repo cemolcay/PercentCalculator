@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -655,48 +655,27 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="PercentCalc" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="PercentCalculator" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Window Controller-->
-        <scene sceneID="R2V-B0-nI4">
-            <objects>
-                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-                    </window>
-                    <connections>
-                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
-                    </connections>
-                </windowController>
-                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="75" y="250"/>
-        </scene>
-        <!--View Controller-->
+        <!--Calculator-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="PercentCalc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="338" height="238"/>
+                <viewController title="Calculator" storyboardIdentifier="calculator" id="XfG-lQ-9wD" customClass="ViewController" customModule="PercentCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" misplaced="YES" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="309" height="99"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17N-VT-BM6">
-                                <rect key="frame" x="20" y="20" width="298" height="198"/>
+                            <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" verticalCompressionResistancePriority="751" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17N-VT-BM6">
+                                <rect key="frame" x="10" y="10" width="323" height="82"/>
                                 <subviews>
-                                    <customView horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="QtS-Wp-2h6" userLabel="Empty">
-                                        <rect key="frame" x="0.0" y="148" width="298" height="50"/>
-                                    </customView>
                                     <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rGC-Ju-eqi">
-                                        <rect key="frame" x="0.0" y="118" width="298" height="22"/>
+                                        <rect key="frame" x="0.0" y="60" width="323" height="22"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qy7-qb-gyt">
-                                                <rect key="frame" x="-2" y="3" width="50" height="17"/>
+                                                <rect key="frame" x="-2" y="2.5" width="50" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="What is" id="rCz-jX-guW">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -715,7 +694,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnS-hG-rEM">
-                                                <rect key="frame" x="110" y="3" width="30" height="17"/>
+                                                <rect key="frame" x="110" y="2.5" width="30" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="% of" id="99Z-gO-9XR">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -731,7 +710,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTb-wP-eh8">
-                                                <rect key="frame" x="202" y="3" width="11" height="17"/>
+                                                <rect key="frame" x="202" y="2.5" width="11" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="?" id="qVp-UP-je0">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -739,7 +718,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="245" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLk-Jf-jiF">
-                                                <rect key="frame" x="217" y="3" width="83" height="17"/>
+                                                <rect key="frame" x="217" y="2.5" width="108" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="4Yf-qB-0hw">
                                                     <font key="font" metaFont="systemBold"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -768,7 +747,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gto-od-cy2">
-                                        <rect key="frame" x="0.0" y="88" width="298" height="22"/>
+                                        <rect key="frame" x="0.0" y="30" width="323" height="22"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xp-mR-eCh">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="22"/>
@@ -782,7 +761,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu9-hR-3pH">
-                                                <rect key="frame" x="56" y="3" width="113" height="17"/>
+                                                <rect key="frame" x="56" y="2.5" width="113" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="is what percent of" id="iIu-eh-TyM">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -798,7 +777,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-Qh-sp0">
-                                                <rect key="frame" x="231" y="3" width="11" height="17"/>
+                                                <rect key="frame" x="231" y="2.5" width="11" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="?" id="pP0-Er-ZwL">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -806,7 +785,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="245" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkn-eg-iHe">
-                                                <rect key="frame" x="246" y="3" width="54" height="17"/>
+                                                <rect key="frame" x="246" y="2.5" width="79" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="XE4-7f-lbQ">
                                                     <font key="font" metaFont="systemBold"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -833,7 +812,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2U-8D-CAI">
-                                        <rect key="frame" x="0.0" y="58" width="298" height="22"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="22"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbj-vF-6f5">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="22"/>
@@ -847,7 +826,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmg-KG-aXk">
-                                                <rect key="frame" x="56" y="3" width="14" height="17"/>
+                                                <rect key="frame" x="56" y="2.5" width="14" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="is" id="aob-W6-3qT">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -863,7 +842,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hum-WO-kUQ">
-                                                <rect key="frame" x="132" y="3" width="70" height="17"/>
+                                                <rect key="frame" x="132" y="2.5" width="70" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="% of what?" id="luz-0Z-tXm">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -871,7 +850,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="245" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hba-97-Gdw">
-                                                <rect key="frame" x="206" y="3" width="94" height="17"/>
+                                                <rect key="frame" x="206" y="2.5" width="119" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="OOR-pG-N8Y">
                                                     <font key="font" metaFont="systemBold"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -897,12 +876,8 @@
                                             <real value="3.4028234663852886e+38"/>
                                         </customSpacing>
                                     </stackView>
-                                    <customView horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="k2N-Kh-koJ" userLabel="Empty">
-                                        <rect key="frame" x="0.0" y="0.0" width="298" height="50"/>
-                                    </customView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="k2N-Kh-koJ" firstAttribute="height" secondItem="QtS-Wp-2h6" secondAttribute="height" id="1ZO-IA-aNe"/>
                                     <constraint firstAttribute="trailing" secondItem="J2U-8D-CAI" secondAttribute="trailing" id="DgR-iF-EN3"/>
                                     <constraint firstItem="rGC-Ju-eqi" firstAttribute="leading" secondItem="17N-VT-BM6" secondAttribute="leading" id="TCN-Db-s7C"/>
                                     <constraint firstItem="J2U-8D-CAI" firstAttribute="leading" secondItem="17N-VT-BM6" secondAttribute="leading" id="iXl-iK-SvQ"/>
@@ -912,12 +887,8 @@
                                     <integer value="1000"/>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
-                                    <integer value="1000"/>
-                                    <integer value="1000"/>
                                 </visibilityPriorities>
                                 <customSpacing>
-                                    <real value="3.4028234663852886e+38"/>
-                                    <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
@@ -925,10 +896,10 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="17N-VT-BM6" secondAttribute="trailing" constant="20" id="M3g-GL-nlf"/>
-                            <constraint firstItem="17N-VT-BM6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="brK-Pe-fSL"/>
-                            <constraint firstItem="17N-VT-BM6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="ll9-DO-lYH"/>
-                            <constraint firstAttribute="bottom" secondItem="17N-VT-BM6" secondAttribute="bottom" constant="20" id="pz6-5c-Ivn"/>
+                            <constraint firstAttribute="trailing" secondItem="17N-VT-BM6" secondAttribute="trailing" constant="10" id="M3g-GL-nlf"/>
+                            <constraint firstItem="17N-VT-BM6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="brK-Pe-fSL"/>
+                            <constraint firstItem="17N-VT-BM6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="ll9-DO-lYH"/>
+                            <constraint firstAttribute="bottom" secondItem="17N-VT-BM6" secondAttribute="bottom" constant="10" id="pz6-5c-Ivn"/>
                         </constraints>
                     </view>
                     <connections>
@@ -945,7 +916,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="663"/>
+            <point key="canvasLocation" x="-18" y="125"/>
         </scene>
     </scenes>
 </document>
