@@ -71,10 +71,10 @@
 			children = (
 				B2E76DE81F6EF62700E9F2FA /* EventMonitor.swift */,
 				B2E76DDD1F6EF4D700E9F2FA /* AppDelegate.swift */,
+				B2E76DE21F6EF4D700E9F2FA /* ViewController.swift */,
 				B2E76DDE1F6EF4D700E9F2FA /* Assets.xcassets */,
 				B2E76DDF1F6EF4D700E9F2FA /* Main.storyboard */,
 				B2E76DE11F6EF4D700E9F2FA /* Info.plist */,
-				B2E76DE21F6EF4D700E9F2FA /* ViewController.swift */,
 			);
 			path = PercentCalculator;
 			sourceTree = "<group>";
