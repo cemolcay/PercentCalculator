@@ -64,6 +64,10 @@ class ViewController: NSViewController {
   var viewModel2: PercentCalculatorViewModel!
   var viewModel3: PercentCalculatorViewModel!
 
+  @IBAction func quitButtonPressed(sender: NSButton) {
+    NSApplication.shared().terminate(sender)
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
