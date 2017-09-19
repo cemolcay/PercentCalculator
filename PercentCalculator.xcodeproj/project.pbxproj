@@ -19,7 +19,7 @@
 		0767F5C3E6F50DCDCD0974A2 /* Pods-PercentCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PercentCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PercentCalculator/Pods-PercentCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		0B3941B79289092E72C79878 /* Pods-PercentCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PercentCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-PercentCalculator/Pods-PercentCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		1DECDC624F21E2352B18F8FD /* Pods_PercentCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PercentCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B250EA561F6D734200A0BDA5 /* PercentCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B250EA561F6D734200A0BDA5 /* Menu Bar Percent Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menu Bar Percent Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E76DDD1F6EF4D700E9F2FA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2E76DDE1F6EF4D700E9F2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E76DE01F6EF4D700E9F2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		B250EA571F6D734200A0BDA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B250EA561F6D734200A0BDA5 /* PercentCalculator.app */,
+				B250EA561F6D734200A0BDA5 /* Menu Bar Percent Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			);
 			name = PercentCalculator;
 			productName = PercentCalc;
-			productReference = B250EA561F6D734200A0BDA5 /* PercentCalculator.app */;
+			productReference = B250EA561F6D734200A0BDA5 /* Menu Bar Percent Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -361,7 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Menu Bar Percent Calculator";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -381,7 +381,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.PercentCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Menu Bar Percent Calculator";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
