@@ -1,7 +1,7 @@
 PercentCalculator
 ===
 
-A menu bar application that calculates percents.  
+A menu bar application that calculates percents(%).
 Available on Mac App Store for free.  
   
 [![alt tag](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](https://geo.itunes.apple.com/us/app/menu-bar-percent-calculator/id1286560999?mt=12)
