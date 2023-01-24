@@ -12,7 +12,7 @@ enum PercentCalculator {
   case whatIsXpercentOfY
   case xIsYpercentOf
   case xIsWhatPercentOfY
-  case xpercentoflessofY
+  case percentless
 
   func calculate(x: Double, y: Double) -> Double {
     switch self {
@@ -22,6 +22,8 @@ enum PercentCalculator {
       return x * 100.0 / y
     case .xIsYpercentOf:
       return 100.0 / y * x
+    case .percentless:
+      return (x - y) / 100.0
     }
   }
 }
@@ -92,7 +94,7 @@ class ViewController: NSViewController {
       result: resultTextField3)
     
     viewModel4 = PercentCalculatorViewModel(
-      type: .xpercentoflessofY,
+      type: .percentless,
       x: xTextField4,
       y: yTextField4,
       result: resultTextField4)
