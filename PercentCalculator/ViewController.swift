@@ -12,6 +12,7 @@ enum PercentCalculator {
   case whatIsXpercentOfY
   case xIsYpercentOf
   case xIsWhatPercentOfY
+  case xpercentoflessofY
 
   func calculate(x: Double, y: Double) -> Double {
     switch self {
@@ -63,6 +64,7 @@ class ViewController: NSViewController {
   var viewModel1: PercentCalculatorViewModel!
   var viewModel2: PercentCalculatorViewModel!
   var viewModel3: PercentCalculatorViewModel!
+  var viewModel4: PercentCalculatorViewModel!
 
   @IBAction func quitButtonPressed(sender: NSButton) {
     NSApplication.shared().terminate(sender)
@@ -88,6 +90,12 @@ class ViewController: NSViewController {
       x: xTextField3,
       y: yTextField3,
       result: resultTextField3)
+    
+    viewModel4 = PercentCalculatorViewModel(
+      type: .xpercentoflessofY,
+      x: xTextField4,
+      y: yTextField4,
+      result: resultTextField4)
   }
 }
 
