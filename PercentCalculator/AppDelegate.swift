@@ -79,7 +79,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
 
   // MARK: Popover - Left click
+  func checkPopover(sender: AnyObject?){
+    showPopover(sender: sender)
+    if !popover.isShown {
+      return "error"
+    }
 
+  }
   func showPopover(sender: AnyObject?) {
     eventMonitor?.start()
     if let button = statusItem.view {
@@ -106,6 +112,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let rightMenu = NSMenu()
     rightMenu.addItem(NSMenuItem(title: "Quit", action: #selector(quitDidPress(sender:)), keyEquivalent: ""))
     statusItem.popUpMenu(rightMenu)
+  }
+  
+  func quitMenu(){
+    NSMenuItem.shared().terminate(sender)
   }
 
   func quitDidPress(sender: AnyObject?) {
